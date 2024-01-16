@@ -1,0 +1,3 @@
+babel mengubah kode module menjadi kode commonjs
+
+https://babeljs.io/setup

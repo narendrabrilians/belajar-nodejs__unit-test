@@ -1,0 +1,4 @@
+konfigurasi bisa lewat package.json
+konfigurasi bisa lewat file jest.config.js/ts/mjs bisa dibuat otomatis dengan (npx) jest --init tapi pindah konfigurasi di package.json
+
+key-value di dokumentasi misalnya "verbose": true

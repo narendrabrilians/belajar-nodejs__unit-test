@@ -1,0 +1,11 @@
+jest --help
+
+misalnya,
+--version
+--automock
+--bail
+--cache
+
+spesifik:
+npx jest --runTestByPath test/sum.test.js
+npx jest --testNamePattern "test sum function"

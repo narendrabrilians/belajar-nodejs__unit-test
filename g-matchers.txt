@@ -1,0 +1,6 @@
+function expect() mengembalikan object Matchers yang bisa digunakan untuk mengetest value yang kita expect()
+
+1. Equal Matchers       => equal.test.js
+2. Truthiness Matchers  => truthiness.test.js (undefined, null, false)
+3. Numbers Matchers     => number.test.js
+4. Strings Matchers     => string.test.js

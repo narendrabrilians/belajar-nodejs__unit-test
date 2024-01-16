@@ -2,10 +2,21 @@
   "name": "belajar-nodejs__unit-test",
   "version": "1.0.0",
   "description": "Belajar NodeJS Unit Test",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "type": "module",
   "author": "Narendra Febriliansyah R",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
 }

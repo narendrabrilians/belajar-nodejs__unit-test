@@ -1,0 +1,2 @@
+1. membuat folder src dan file sum.js di dalamnya
+2. membuat folder test dan file sum.test.js di dalamnya

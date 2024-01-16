@@ -1,0 +1,8 @@
+1. npm install jest --save-dev
+
+
+catatan :
+.bin jest => binary file yang perlu dieksekusi kalau ingin menjalankan unit test dengan cara,
+node_modules/.bin/jest
+"test": "jest" => langsung di package.json scripts
+npx jest => (Node Package Runner) digunakan special otomatis mendeteksi file di node_modules/.bin/
