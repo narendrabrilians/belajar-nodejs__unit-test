@@ -4,3 +4,6 @@ function expect() mengembalikan object Matchers yang bisa digunakan untuk menget
 2. Truthiness Matchers  => truthiness.test.js (undefined, null, false)
 3. Numbers Matchers     => number.test.js
 4. Strings Matchers     => string.test.js
+5. Arrays Matchers      => array.test.js
+6. Exception Matchers   => exception.test.js
+7. Not Matchers         => not.test.js
