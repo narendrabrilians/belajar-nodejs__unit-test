@@ -1,0 +1,3 @@
+it.test.js
+
+it() adalah alias test()

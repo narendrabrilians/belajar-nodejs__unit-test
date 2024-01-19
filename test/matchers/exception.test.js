@@ -12,4 +12,5 @@ test("exception", () => {
   expect(() => throwErrorWithName("NFR")).toThrow();
   expect(() => throwErrorWithName("NFR")).toThrow(MyException);
   expect(() => throwErrorWithName("NFR")).toThrow("hahaha");
+  expect(throwErrorWithName(null)).toBe("OK");
 });

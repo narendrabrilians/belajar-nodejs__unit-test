@@ -1,0 +1,3 @@
+each-function.test.js
+
+Hindari duplikat unit test hanya karena data yang di-test berbeda

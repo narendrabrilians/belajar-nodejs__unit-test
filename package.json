@@ -7,9 +7,24 @@
     "test": "jest"
   },
   "jest": {
+    "verbose": true,
+    "maxConcurrency": 3,
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
-    }
+    },
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    },
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!vendor/**/*.{js,jsx}"
+    ]
   },
   "type": "module",
   "author": "Narendra Febriliansyah R",

@@ -1,0 +1,8 @@
+scoping.test.js
+
+fitur scoping atau grouping dengan describe()
+
+Setup Function yang di dalam describe() hanya digunakan untuk unit test di dalam describe() tersebut
+Setup Function di luar describe() otomatis digunakan juga di dalam describe()
+
+bisa nested scoping

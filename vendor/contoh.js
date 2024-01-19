@@ -1,0 +1,3 @@
+const contoh = () => {
+  return "contoh";
+};

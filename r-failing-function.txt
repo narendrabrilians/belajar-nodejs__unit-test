@@ -1,0 +1,3 @@
+failing-function.test.js
+
+terkadang kita perlu membuat skenario gagal misalnya ketika kita mengirim data yang tidak valid

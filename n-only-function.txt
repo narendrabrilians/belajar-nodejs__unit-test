@@ -1,0 +1,3 @@
+only.test.js
+
+misal ingin fokus ke salah satu atau beberapa unit test di suatu file

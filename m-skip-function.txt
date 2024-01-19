@@ -1,0 +1,3 @@
+skip.test.js
+
+kalau ingin skip unit test tidak perlu komentar karena bisa di-skip

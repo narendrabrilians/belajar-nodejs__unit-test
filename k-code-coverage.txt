@@ -1,0 +1,12 @@
+Apakah semua kode sudah tercakupi dengan semua skenario unit test?
+
+https://jestjs.io/docs/configuration#collectcoverage-boolean
+
+di konfigurasi jest package.json tambahkan, "collectCoverage": true
+
+folder coverage akan otomatis dibuat
+
+Coverage Threshold => memastikan presentase Code Coverage https://jestjs.io/docs/configuration#coveragethreshold-object
+
+Collect Coverage => Misal ada beberapa bagian yang tidak ingin kita collect data code coverage https://jestjs.io/docs/configuration#collectcoveragefrom-array
+

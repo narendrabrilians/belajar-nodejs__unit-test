@@ -1,0 +1,31 @@
+Mock => object tiruan yang tingkah lakunya menyerupai object aslinya
+Jest mendukung Jenis Mock: Mock Function, Mock Class, Mock Modules
+
+MOCK FUNCTION
+mock-function.test.js
+mockReturnValue
+mockImpelementation
+
+MOCK ASYNC FUNCTION
+mock-async-function.test.js
+bisa buat async sehingga mengembalikan Promise
+
+MOCK MATCHERS
+mock-matchers.test.js
+jest menyediakan fitur matchers untuk mock, sehingga tidak perlu manual
+
+MOCK MODULES
+database.js
+mock-modules.js
+misal mock modules database
+
+MOCK PARTIAL MODULES
+bisa beberapa bagian saja dan tidak seluruh modules
+
+MOCK CLASS
+user-repository.js => connect ke database
+user-service.js
+
+MOCK PARTIAL CLASS
+mock-partial-class.test.js
+jest.spyOn()

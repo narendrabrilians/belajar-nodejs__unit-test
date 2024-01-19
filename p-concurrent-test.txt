@@ -1,0 +1,6 @@
+Default: unit test dijalankan secara sequential
+
+bisa dibuat concurrent atau asynchronous sehingga tidak perlu ditunggu
+
+bisa dibatasi concurrentnya karena ditakutkan membebani hardware, misal 10
+10 concurrent selesai, lanjut 10 concurrent

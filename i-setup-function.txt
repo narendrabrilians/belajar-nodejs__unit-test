@@ -1,0 +1,8 @@
+Fungsi yang dijalankan sebelum dan setelah unit test
+
+beforeEach(function)  => sejumlah unit test di file
+afterEach(function)   => sejumlah unit test di file
+beforeAll(function)  => sekali sebelum unit test di file
+afterAll(function)   => sekali setelah unit test di file
+
+bisa menambahkan async
